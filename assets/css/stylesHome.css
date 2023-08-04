@@ -1,0 +1,107 @@
+*{
+    font-family: 'eczar';
+    font-size: 20px;
+    font-weight:bold;
+}
+
+html {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #32167C 0%, #1F1147 54.69%);
+    min-height: 100vh;
+    position: relative;
+}
+
+html:before {
+    content: "";
+    width: 100%;
+    height: 65%;
+    background-image: url('../img/stars.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.07;
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.logo{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.title, .subtitle{
+    color: #38E9BB;
+    text-align: center;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputForm{
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.btnJugar, .btn, .btnContinuar{
+    width: 60%;
+    background: #6949FD;
+    border-radius: 10px;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    align-self: center;
+}
+
+footer{
+    font-family: "eczar";
+    font-weight:lighter;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    letter-spacing: 1.8px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+a:link, a:visited, a:active{
+    color:white;
+    text-decoration: none;
+}
+
+.btn:hover, .btnJugar:hover, .btnContinuar:hover, a:hover{
+    color:#38E9BB;
+    cursor: pointer;
+}
+

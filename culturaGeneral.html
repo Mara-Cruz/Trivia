@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/stylesHome.css">
+    <link rel="stylesheet" href="./assets/css/stylesPreguntas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&display=swap" rel="stylesheet">
+    <title>Cultura General</title>
+</head>
+<body>
+    <main>
+        <form id="trivia">
+            <img class="logoPreguntas" src="./assets/img/preguntas.png" alt="Logo preguntas">      
+            <h1 class="title">★ Cultura General ★</h1> 
+            <div class="pregunta">
+                <p class="subtitle">1. ¿Cuál es el edificio más alto del mundo?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='acierto' required> El Burj Khalifa</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='error' required> El Empire State</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='error' required> El Taipei 101</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">2. ¿Cuál es el océano más grande del mundo?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='error'required> Océano Índico </label>
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='acierto'required> Océano Pacífico</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='error'required> Océano Atlántico</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">3. ¿Cuál es el país con la superficie más grande del mundo?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='error' required> China</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='acierto' required> Rusia</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='error'required> Estados Unidos</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">4. ¿Cuál de estas obras fue pintada por Van Gogh?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='error' required> "La Ultima Cena" </label>
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='error' required> "La persistencia de la memoria</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='acierto' required> "Los Girasoles"</label>
+                </span>
+            </div>        
+            <div  class="pregunta">
+                <p class="subtitle">5. ¿De qué pais es el famoso fondue?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='error' required> Austria</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='error' required> Alemania</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='acierto' required> Suiza</label>
+                </span>
+            </div>
+            <button class="btn" type="submit">Continuar</button>
+        </form>
+    </main>  
+    <script src="./js/preguntas.js"></script>
+</body>
+</html>
+
+            

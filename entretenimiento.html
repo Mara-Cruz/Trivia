@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/stylesHome.css">
+    <link rel="stylesheet" href="./assets/css/stylesPreguntas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;600&display=swap" rel="stylesheet">
+    <title>Entretenimiento</title>
+</head>
+<body>
+    <main>
+        <form id="trivia">
+            <img class="logoPreguntas" src="./assets/img/preguntas.png" alt="Logo Preguntas">      
+            <h1 class="title">★ Entretenimiento ★</h1> 
+            <div class="pregunta">
+                <p class="subtitle">1. ¿Película de Christopher Nolan sobre el subconciente?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='acierto' required> Inception</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='equivocacion' required> Matrix</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta1' value='equivocacion' required> Interestelar</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">2. ¿En qué famoso videojuego un fontanero rescata una princesa?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='error'required> Sonic el Erizo </label>
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='error'required> La Leyenda de Zelda</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta2' value='acierto'required> Super Mario Bros</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">3. ¿Qué banda de rock, es famosa por "Paint It Black"? </p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='error' required> Queen</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='acierto' required> The Rolling Stones</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta3' value='error'required> The Who</label>
+                </span>
+            </div>
+            <div class="pregunta">
+                <p class="subtitle">4. En "Toy Story", ¿quién es el interés amoroso de Woody? </p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='acierto' required> La Pastorcita</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='error' required> Barbie</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta4' value='error' required> "Jessie"</label>
+                </span>
+            </div>       
+            <div  class="pregunta">
+                <p class="subtitle">5. ¿Qué película de Disney tiene a una princesa escocesa?</p>
+                <span class="opciones">
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='acierto' required> Valiente</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='error' required> Frozen</label>
+                    <label><input type='radio' class="radioBtn" name='pregunta5' value='error' required> Moana</label>
+                </span>
+            </div>
+            <button class="btn" type="submit">Continuar</button>
+        </form>
+    </main>  
+    <script src="./js/preguntas.js"></script>
+</body>
+</html>
+
+            
